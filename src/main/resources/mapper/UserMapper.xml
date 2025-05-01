@@ -6,7 +6,7 @@
 
     <resultMap id="BaseResultMap" type="com.yuiko.like.entity.po.User">
             <id property="id" column="id" jdbcType="BIGINT"/>
-            <result property="username" column="username" jdbcType="VARCHAR"/>
+            <result property="userName" column="username" jdbcType="VARCHAR"/>
     </resultMap>
 
     <sql id="Base_Column_List">
